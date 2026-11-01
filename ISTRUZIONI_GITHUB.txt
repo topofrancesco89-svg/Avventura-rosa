@@ -1,0 +1,14 @@
+AVVENTURA ROSA - CREAZIONE APK CON GITHUB ACTIONS
+
+1. Crea un repository GitHub chiamato Avventura-Rosa.
+2. Impostalo su Public (così GitHub Actions è utilizzabile gratuitamente senza complicazioni).
+3. Carica TUTTI i file e le cartelle contenuti in questa cartella nella ROOT del repository.
+   Importante: la cartella .github deve essere inclusa. Su Android, se non compare, abilita la visualizzazione dei file nascosti o carica il file workflow tramite GitHub web.
+4. Apri la scheda Actions del repository.
+5. Se richiesto, premi 'I understand my workflows, go ahead and enable them'.
+6. Seleziona 'Build Avventura Rosa APK' e premi 'Run workflow'.
+7. Attendi che il workflow termini con spunta verde.
+8. Apri l'esecuzione completata, scorri fino ad Artifacts e scarica 'Avventura-Rosa-debug-apk'.
+9. Estrai lo ZIP scaricato: contiene app-debug.apk. Toccalo per installarlo; se Android lo chiede, consenti l'installazione da questa origine.
+
+Il repository contiene codice sorgente. Non pubblicare password, chiavi o dati personali nei file.
